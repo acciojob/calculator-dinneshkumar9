@@ -4,7 +4,7 @@ const buttons = document.querySelectorAll("button");
 buttons.forEach(button => {
   button.addEventListener("click", e => {
     const value = e.target.innerText;
-    if (value === "Clr") {
+    if (value === "Clear") {
       input.value = "";
     } else if (value === "=") {
       input.value = eval(input.value);
